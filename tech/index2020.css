@@ -159,7 +159,7 @@
 	.gp-f34{font-size: 2.4rem;}
 	.gp-f18{font-size: 1.6rem;}
 	.news-list > li{margin-bottom: 20px;}
-	.news-box .flex-direction-nav .flex-prev{left: -9px;}
+	.news-box .flex-direction-nav .flex-prev{left: 0px;}
 	.news-box .flex-direction-nav .flex-next{right: 5px;}
 	.news-list{margin-left: 0;margin-right: 0;}
 	.list{margin-right:15px}
@@ -175,6 +175,11 @@
 @media screen and (max-width:479px) {
   .till-slides h3{font-size: 1.8rem;}
   .notice h3{height: 100px;}
+  .banner .flexslider .slides li a .imgresponsive{padding-bottom: 55%;}
+
 }
+/*感觉移动端banner如果是2.5:1太小了，就改成了纵向为55%，这几张图还是没问题，二级页面的subbanner也是55%*/
+
+
 
 
